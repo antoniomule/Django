@@ -1,5 +1,5 @@
 from django import forms
 
 class RegForm(forms.Form):
-	nombre = forms.Charfield(max_Length=100)
+	nombre = forms.CharField(required=False)
 	edad = forms.IntegerField()
