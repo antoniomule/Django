@@ -12,10 +12,18 @@
 	"buffers":
 	[
 		{
-			"file": "src/pd110/settings.py",
+			"file": "src/boletin/forms.py",
 			"settings":
 			{
-				"buffer_size": 3103,
+				"buffer_size": 122,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/boletin/views.py",
+			"settings":
+			{
+				"buffer_size": 439,
 				"line_ending": "Unix"
 			}
 		},
@@ -24,30 +32,6 @@
 			"settings":
 			{
 				"buffer_size": 379,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/boletin/admin.py",
-			"settings":
-			{
-				"buffer_size": 395,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/boletin/views.py",
-			"settings":
-			{
-				"buffer_size": 126,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/pd110/urls.py",
-			"settings":
-			{
-				"buffer_size": 861,
 				"line_ending": "Unix"
 			}
 		}
@@ -76,6 +60,11 @@
 	},
 	"file_history":
 	[
+		"/C/Users/anton/Desktop/pd110/src/pd110/urls.py",
+		"/C/Users/anton/Desktop/pd110/src/boletin/admin.py",
+		"/C/Users/anton/Desktop/pd110/src/boletin/models.py",
+		"/C/Users/anton/Desktop/pd110/src/templates/inicio.html",
+		"/C/Users/anton/Desktop/pd110/src/pd110/settings.py"
 	],
 	"find":
 	{
@@ -110,51 +99,49 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/pd110/settings.py",
+					"file": "src/boletin/forms.py",
 					"settings":
 					{
-						"buffer_size": 3103,
+						"buffer_size": 122,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1080,
-								1080
+								115,
+								115
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/boletin/models.py",
+					"file": "src/boletin/views.py",
 					"settings":
 					{
-						"buffer_size": 379,
+						"buffer_size": 439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								379,
-								379
+								95,
+								95
 							]
 						],
 						"settings":
@@ -169,70 +156,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/boletin/admin.py",
+					"file": "src/boletin/models.py",
 					"settings":
 					{
-						"buffer_size": 395,
+						"buffer_size": 379,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								395,
-								395
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/boletin/views.py",
-					"settings":
-					{
-						"buffer_size": 126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								126,
-								126
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/pd110/urls.py",
-					"settings":
-					{
-						"buffer_size": 861,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								861,
-								861
+								0,
+								0
 							]
 						],
 						"settings":
@@ -254,7 +189,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
