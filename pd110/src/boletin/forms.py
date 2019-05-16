@@ -20,7 +20,6 @@ class RegModelForm(forms.ModelForm):
 			#validaciones
 			return nombre
 
-
 class RegForm(forms.Form):
 	nombre = forms.CharField(required=False)
 	email = forms.EmailField()
