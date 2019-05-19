@@ -20,6 +20,8 @@ class RegModelForm(forms.ModelForm):
 			#validaciones
 			return nombre
 
-class RegForm(forms.Form):
+class ContactForm(forms.Form):
 	nombre = forms.CharField(required=False)
 	email = forms.EmailField()
+	mensaje = forms.CharField(widget=forms.Textarea)	
+

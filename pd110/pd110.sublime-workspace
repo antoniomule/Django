@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fo",
+				"form"
+			],
+			[
 				"lis",
 				"list_display"
 			]
@@ -15,7 +19,7 @@
 			"file": "src/boletin/forms.py",
 			"settings":
 			{
-				"buffer_size": 257,
+				"buffer_size": 633,
 				"line_ending": "Windows"
 			}
 		},
@@ -23,7 +27,7 @@
 			"file": "src/boletin/views.py",
 			"settings":
 			{
-				"buffer_size": 439,
+				"buffer_size": 959,
 				"line_ending": "Unix"
 			}
 		},
@@ -41,6 +45,14 @@
 			{
 				"buffer_size": 450,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/inicio.html",
+			"settings":
+			{
+				"buffer_size": 221,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -90,6 +102,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<",
 			"	class Meta:\n		model = Registrado"
 		],
 		"highlight": true,
@@ -108,7 +121,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -116,20 +129,21 @@
 					"file": "src/boletin/forms.py",
 					"settings":
 					{
-						"buffer_size": 257,
+						"buffer_size": 633,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								141,
-								141
+								536,
+								536
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -142,15 +156,15 @@
 					"file": "src/boletin/views.py",
 					"settings":
 					{
-						"buffer_size": 439,
+						"buffer_size": 959,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95,
-								95
+								690,
+								690
 							]
 						],
 						"settings":
@@ -209,6 +223,32 @@
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/templates/inicio.html",
+					"settings":
+					{
+						"buffer_size": 221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
