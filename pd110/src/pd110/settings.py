@@ -130,11 +130,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_URL = '/media/'
-#/static/imagenes/omg1.jpg
+#/static/imagenes/img1.jpg
 STATICFILES_DIRS = [
    os.path.join(BASE_DIR, "static_pro", "static"),
     #'/var/www/static/',
 ]
 
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_env", "static_root")
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_env", "media_root")  
+MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_env", "media_root") 
