@@ -7,35 +7,38 @@
 <div class='row'>
 <div class='col-sm-6'>
 		<h1>Probar django 1.10</h1>
-        <p class="lead">Un proyecto para Lenguaje de Marcas</p>
-        <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">Únete &raquo;</a>
+        <p>Un proyecto para Lenguaje de Marcas, El objetivo es contruir una página web simple a la par que elegante en muy poco tiempo</p>
+        <p>
+        <a class="btn btn-lg btn-primary" href="../../components/#navbar/" role="button">Únete &raquo;</a>
+    </p>
 </div>
 <div class='col-sm-6 ' style='background-color:black;height:300px;'></div>
 </div>
 {% endblock %} 
 
 
-{{ titulo }}
+{{ titulo }}<br/>
+{{request.user }}
 <hr/>
 <br/>
 
 {% block content %}
 <div class="row">
 	<div class="col-sm-3 col-xs-12 pull-right">
-		<p class='lead'>{{ titulo }}</p>
+		<p class='lead text-align-center'>{{ titulo }}</p>
 		<form method="POST" action="">{% csrf_token %}
 		{{ el_form|crispy }}
 		<input class='btn btn-primary' type='submit' value='Inscribirse' />
 		</form>
 	</div>
 <div class='col-sm-3'>
-	<p class='lead'>Creado con Django &amp; Bootstrap</p>
+	<p class='lead text-align-center'>Creado con Django &amp; Bootstrap</p>
 </div>
 <div class='col-sm-3'>
-	<p class='lead'>Y con poco tiempo, claro.</p>
+	<p class='lead text-align-center'>Y con poco tiempo, claro.</p>
 </div>
 <div class='col-sm-3'>
-	<p class='lead'>Código abierto, siempre.</p>
+	<p class='lead text-align-center'>Código abierto, siempre.</p>
 </div>
 </div>
 
