@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"urls",
+				"urlpatterns"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
 				"fo",
 				"form"
 			],
@@ -16,34 +24,18 @@
 	"buffers":
 	[
 		{
-			"file": "src/boletin/forms.py",
-			"settings":
-			{
-				"buffer_size": 633,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/boletin/views.py",
 			"settings":
 			{
-				"buffer_size": 959,
+				"buffer_size": 1828,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/boletin/models.py",
+			"file": "src/pd110/settings.py",
 			"settings":
 			{
-				"buffer_size": 379,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/boletin/admin.py",
-			"settings":
-			{
-				"buffer_size": 450,
+				"buffer_size": 3697,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +43,23 @@
 			"file": "src/templates/inicio.html",
 			"settings":
 			{
-				"buffer_size": 221,
+				"buffer_size": 197,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/pd110/urls.py",
+			"settings":
+			{
+				"buffer_size": 1176,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 4806,
 				"line_ending": "Windows"
 			}
 		}
@@ -80,9 +88,11 @@
 	},
 	"file_history":
 	[
-		"/C/Users/anton/Desktop/pd110/src/pd110/urls.py",
+		"/C/Users/anton/Desktop/pd110/src/templates/forms.html",
+		"/C/Users/anton/Desktop/pd110/src/boletin/forms.py",
 		"/C/Users/anton/Desktop/pd110/src/boletin/admin.py",
 		"/C/Users/anton/Desktop/pd110/src/boletin/models.py",
+		"/C/Users/anton/Desktop/pd110/src/pd110/urls.py",
 		"/C/Users/anton/Desktop/pd110/src/templates/inicio.html",
 		"/C/Users/anton/Desktop/pd110/src/pd110/settings.py"
 	],
@@ -121,23 +131,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/boletin/forms.py",
+					"file": "src/boletin/views.py",
 					"settings":
 					{
-						"buffer_size": 633,
+						"buffer_size": 1828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								536,
-								536
+								1015,
+								1015
 							]
 						],
 						"settings":
@@ -146,31 +156,32 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/boletin/views.py",
+					"file": "src/pd110/settings.py",
 					"settings":
 					{
-						"buffer_size": 959,
+						"buffer_size": 3697,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								690,
-								690
+								3697,
+								3697
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -180,23 +191,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/boletin/models.py",
+					"file": "src/templates/inicio.html",
 					"settings":
 					{
-						"buffer_size": 379,
+						"buffer_size": 197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								79,
+								79
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -206,52 +217,56 @@
 				},
 				{
 					"buffer": 3,
-					"file": "src/boletin/admin.py",
+					"file": "src/pd110/urls.py",
 					"settings":
 					{
-						"buffer_size": 450,
+						"buffer_size": 1176,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								237,
-								237
+								1099,
+								1099
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "src/templates/inicio.html",
+					"file": "src/templates/base.html",
 					"settings":
 					{
-						"buffer_size": 221,
+						"buffer_size": 4806,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								221,
-								221
+								1258,
+								1258
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1440.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -315,6 +330,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 159.0,
 	"status_bar_visible": true
 }
