@@ -42,9 +42,10 @@ def inicio(request):
 		#abc2 = form_data.get("nombre")
 		#obj = Registrado.objects.create(email=abc, nombre=abc2)
 
-	if request.user.is_authenticated() and request.user.is_staff: 
+	if request.user.is_authenticated() and request.user.is_staff:
+		queryset = Registrado.objects.all().order_by("-timestamp") #filter(email__icontains="@")
 		context = {
-				"queryset": ['abc', '123'],
+				"queryset": queryset,
 		}
 	return render(request, "inicio.html", context)
 
