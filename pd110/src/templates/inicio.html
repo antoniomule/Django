@@ -1,6 +1,6 @@
  {% extends "base.html" %}  
  {% load crispy_forms_tags %}
-
+{% load static %}
 {% block head_title %}Bienvenidos | {{ block.super}}{% endblock %}
 <style>
 {% block style %} 
@@ -45,14 +45,14 @@
 		</form>
 	</div>
 <div class='col-sm-3'>
-	<p class='lead text-align-center'>Creado con Django &amp; Bootstrap</p>
+	<p class='lead text-align-center'>Creado con Django &amp; Bootstrap.<i class="fab fa-angellist fa-3x"></i></p>
 </div>
 <div class='col-sm-3'>
-	<p class='lead text-align-center'>Y con poco tiempo, claro.</p>
+	<p class='lead text-align-center'>Y con poco tiempo, claro.</p><img src='{% static "img/fondo.jpg" %}'>
 </div>
 <div class='col-sm-3'>
-	<p class='lead text-align-center'>Código abierto, siempre.</p>
-</div>
+	<p class='lead text-align-center'>Código abierto, siempre<i class="fas fa-cloud-upload-alt fa-3x " style="color: #00aae4"></i></p>
+</div> 
 </div>
 
 <hr/>
